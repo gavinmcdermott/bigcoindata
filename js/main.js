@@ -243,14 +243,14 @@ $(function() {
             "value": 0.47
         }],
         "valueAxes": [{
-            "axisAlpha": 0,
-            // "inside": true,
+            "axisAlpha": 1,
+            "inside": true,
             "position": "left",
             "ignoreAxisWidth": true,
             "gridAlpha": 0.2,
-            "gridColor": '#B2B5BC',
+            "gridColor": '#798286',
             "dashLength": 4,
-            "color": "#B2B5BC"
+            "color": "#798286"
         }],
         "graphs": [{
             "balloonText": "[[category]]<br><b><span style='font-size:14px;'>[[value]]</span></b>",
@@ -292,7 +292,9 @@ $(function() {
         "marginLeft": 0,
         "marginRight": 0,
         "marginTop": 0,
-        "panEventsEnabled": true
+        "panEventsEnabled": true,
+        "autoMargins": true,
+        "autoMarginOffset": 0
         // "sequencedAnimation": true,
         // "startDuration": 0.6
         // "startEffect": 'bounce'

@@ -28,6 +28,10 @@ side text reg darker  485256
 side dividers   283032
 
 
+
+header divider for dark   373F41
+
+
 right side text reg lighter   798286
 
 header font   2A3133
@@ -46,7 +50,7 @@ red   F96B5C
 */
 
 
-
+.green,
 .iconic.green {
     color: #54BB87;
 }
@@ -58,6 +62,13 @@ red   F96B5C
     background-color: #485357;
     margin-right: 20px;
     opacity: 0.3;
+    position: relative;
+    margin-top: 18px;
+}
+
+.icon-chart.caret {
+    display: inline-block;
+    padding-right: 10px;
 }
 
 
@@ -86,7 +97,7 @@ red   F96B5C
 .title {
     color: #2A3133;
     display: inline-block;
-    padding: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
     font-stretch: normal;
     /*text-transform: uppercase;*/
     /*letter-spacing: 1px;*/
@@ -94,8 +105,8 @@ red   F96B5C
 
     font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 50px;
 /*
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
@@ -107,13 +118,29 @@ red   F96B5C
     letter-spacing: -1px;
 }
 
-.title.chart {
+.title-2 {
     color: #798286;
-    text-transform: none;
+    font-size: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 10px;
 }
 
-.title.icon-chart.green {
-    vertical-align: baseline;
+.title-3 {
+    color: #798286;
+    font-size: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 10px;
+    letter-spacing: 0px;
+}
+
+.title.header {
+    color: #798286;
+    text-transform: none;
+    vertical-align: middle;
 }
 
 .title-currency {
@@ -197,6 +224,7 @@ red   F96B5C
 .sidebar-container {
     height: 100%;
     background-color: #171D1F;
+    background: #272B35;
     position: relative;
     display: inline-block;
     padding: 20px;
@@ -226,14 +254,16 @@ red   F96B5C
     /*height: 130px;*/
     float: left;
     padding: 40px 20px 0 20px;
+
+    border-bottom: 1px solid #373F41;
 }
 
 .sb-header {
     width: 100%;
-    height: 90px;
+    /*height: 90px;*/
     padding-bottom: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #283032;
+    /*border-bottom: 1px solid #283032;*/
 }
 
 ./*sb-header .sb-stable-brand {
@@ -400,24 +430,25 @@ red   F96B5C
     left: 0px;
 
 /* Uncomment for whole scrolling main */
-    -ms-overflow-y: scroll;
-    overflow-y: scroll;
-/*
+    /*-ms-overflow-y: scroll;
+    overflow-y: scroll;*/
+
    -ms-overflow-y: hidden;
-    overflow-y: hidden;*/
+    overflow-y: hidden;
 }
 
 .main-content-header-container {
     position: relative;
     display: inline-block;
-    background: #F6F6F6;
+    background: #272B35;
     min-width: 100%;
     height: 130px;
+    border-bottom: 1px solid #373F41;
 }
 
 .main-content-body-container {
     float: left;
-    min-height: calc(100% - 0px);
+    min-height: calc(100% - 130px);
     display: inline-block;
     position: relative;
     width: 100%;
@@ -426,9 +457,9 @@ red   F96B5C
     overflow: hidden;
 
 /* Comment out for scrolling body */
-    /*height: calc(100% - 130px);
+    height: calc(100% - 130px);
     -ms-overflow-y: scroll;
-    overflow-y: scroll;*/
+    overflow-y: scroll;
 }
 
 
@@ -463,14 +494,8 @@ red   F96B5C
 .mc-header {
     height: 100%;
     line-height: 130px;
-    color: #FFF;
-    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    font-weight: 300;
-    font-stretch: normal;
-    text-transform: uppercase;
-    font-size: 17px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #F6F8F8;
+    display: inline-block;
+    width: 100%;
 }
 
 .mc-header.expand-width {
@@ -497,33 +522,30 @@ red   F96B5C
   animation-fill-mode: forwards;
 }
 
-.mc-header-chart {
-    background: #171D1F;
-    border-bottom: 1px solid transparent;
-    padding: 10px 20px 20px 84px;
-}
-
-.title-container {
-    height: 100%;
-    position: relative;
+.mch-slider {
+    padding-left: 84px;
 }
 
 ul.mc-header-nav-items {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    line-height: 150px;
+    height: 130px;
     position: relative;
+    border-left: 1px solid #373F41;
+    /*background: red;*/
 }
 
-.mc-header-nav-items li.nav-item {
-    color: #228D9F;
+.mc-header-nav-items .nav-item {
+    color: #485357;
     height: 100%;
     width: 120px;
     margin: 0;
     list-style: none;
     text-align: center;
     position: relative;
+    float: left;
     cursor: pointer;
 }
 
@@ -561,6 +583,11 @@ ul.mc-header-nav-items {
 
 
 
+
+
+
+
+
 /* Main content Area ************************************************************/
 /* Main content Area ************************************************************/
 /* Main content Area ************************************************************/
@@ -568,7 +595,7 @@ ul.mc-header-nav-items {
     position: relative;
     width: 100%;
     background: #FFF;
-    padding: 40px 20px 60px 84px;
+    padding: 40px 20px 60px 20px;
 }
 
 /*.mcb-content-item-container.top {
@@ -600,21 +627,27 @@ ul.mc-header-nav-items {
 }
 
 .mcb-content-item-container.chart {
-    background: #171D1F;
+    /*background: #171D1F;*/
+    height: 100%;
+    background: #272B35;
     padding-right: 0;
     padding-left: 0;
     padding-top: 0;
+    position: relative;
 }
 
 .mcb-content-item {
     position: relative;
-    height: 100%;
+    /*height: 100%;*/
+    /*height: 715px;*/
     width: 100%;
     border-bottom: 1px solid #F6F8F8;
 }
 
 .mcb-content-item.chart {
     border-bottom: none;
+    position: relative;
+    height: 100%;
 }
 
 
@@ -655,24 +688,51 @@ ul.mc-header-nav-items {
 .dashboard-chart-container {
     position: relative;
     width: 100%;
-    height: 400px;
-    background: #171D1F;
-    /*padding: 20px 0;*/
+    /*height: 400px;*/
+    height: 100%;
+    /*background: #171D1F;*/
+    /*background: #272B35;*/
+}
+
+.dashboard-chart-container .chart-data-header {
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+    color: #798286;
+    /*background-color: red;*/
+}
+
+.dashboard-chart-container .chart-data-subheader {
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 14px;
+    position: relative;
+    /*background-color: blue;*/
+    padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 #dashboard-chart {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 80px);
 }
 
-.sliding-title {
-    position: absolute;
-    color: #798286;
-    left: 80px;
-    z-index: 1;
-    line-height: 50px;
-    padding: 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -728,8 +788,8 @@ ul.mc-header-nav-items {
 .sb-logo {
     position: relative;
     display: block;
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 49px;
     background: url('icons/bitgo-logo-56.svg') no-repeat center right;
     background-size: 52px 54px;
     cursor: pointer;
