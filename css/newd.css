@@ -55,6 +55,14 @@ red   F96B5C
     color: #54BB87;
 }
 
+.dark {
+    color: #2A3133;
+}
+
+.light {
+    color: #798286;
+}
+
 .icon.close-placeholder {
     height: 30px;
     width: 30px;
@@ -97,7 +105,7 @@ red   F96B5C
 .title {
     color: #2A3133;
     display: inline-block;
-    padding: 20px 0 20px 0;
+    /*padding: 20px 0 20px 0;*/
     font-stretch: normal;
     /*text-transform: uppercase;*/
     /*letter-spacing: 1px;*/
@@ -116,29 +124,27 @@ red   F96B5C
     font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial", sans-serif;
     font-weight:300;
     letter-spacing: -1px;
+    vertical-align: middle;
 }
 
 .title-2 {
     color: #798286;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 40px;
     vertical-align: middle;
     display: inline-block;
-    padding-top: 10px;
 }
 
 .title-3 {
     color: #798286;
     font-size: 16px;
-    line-height: 16px;
+    line-height: 20px;
     vertical-align: middle;
     display: inline-block;
-    padding-top: 10px;
     letter-spacing: 0px;
 }
 
-.title.header {
-    color: #798286;
+.title.header {color: #798286;
     text-transform: none;
     vertical-align: middle;
 }
@@ -254,6 +260,9 @@ red   F96B5C
     /*height: 130px;*/
     float: left;
     padding: 40px 20px 0 20px;
+
+    /* black header */
+    /*background: #1A2224;*/
 
     border-bottom: 1px solid #373F41;
 }
@@ -441,6 +450,12 @@ red   F96B5C
     position: relative;
     display: inline-block;
     background: #272B35;
+
+    /* black header */
+    /*background: #1A2224;*/
+
+    /*background: #FFF;*/
+
     min-width: 100%;
     height: 130px;
     border-bottom: 1px solid #373F41;
@@ -499,10 +514,10 @@ red   F96B5C
 }
 
 .mc-header.expand-width {
-  -webkit-animation: widen-mcb-container .25s; /* Safari 4+ */
-  -moz-animation:    widen-mcb-container .25s; /* Fx 5+ */
-  -o-animation:      widen-mcb-container .25s; /* Opera 12+ */
-  animation:         widen-mcb-container .25s; /* IE 10+ */
+  -webkit-animation: widen-container .25s; /* Safari 4+ */
+  -moz-animation:    widen-container .25s; /* Fx 5+ */
+  -o-animation:      widen-container .25s; /* Opera 12+ */
+  animation:         widen-container .25s; /* IE 10+ */
 
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
@@ -511,10 +526,10 @@ red   F96B5C
 }
 
 .mc-header.shrink-width {
-  -webkit-animation: shrink-mcb-container .25s; /* Safari 4+ */
-  -moz-animation:    shrink-mcb-container .25s; /* Fx 5+ */
-  -o-animation:      shrink-mcb-container .25s; /* Opera 12+ */
-  animation:         shrink-mcb-container .25s; /* IE 10+ */
+  -webkit-animation: shrink-container .25s; /* Safari 4+ */
+  -moz-animation:    shrink-container .25s; /* Fx 5+ */
+  -o-animation:      shrink-container .25s; /* Opera 12+ */
+  animation:         shrink-container .25s; /* IE 10+ */
 
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
@@ -588,14 +603,68 @@ ul.mc-header-nav-items {
 
 
 
-/* Main content Area ************************************************************/
-/* Main content Area ************************************************************/
-/* Main content Area ************************************************************/
+/* MAIN CONTENT ITEM CONTAINERS ************************************************************/
+/* MAIN CONTENT ITEM CONTAINERS ************************************************************/
+/* MAIN CONTENT ITEM CONTAINERS ************************************************************/
+.mcb-content-header-tile-container {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-bottom: 1px solid #dedede;
+}
+
+.mcb-content-header-tile {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    line-height: 100px;
+    padding: 0 0 0 20px;
+}
+
+ul.mcb-content-header-tile-nav-items {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 120px;
+    height: 100px;
+    position: relative;
+    border-left: 1px solid #373F41;
+}
+
+.mcb-content-header-tile-nav-items .nav-item {
+    color: #485357;
+    height: 100%;
+    width: 120px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.mcb-content-header-tile-nav-items li.nav-item:hover,
+.mcb-content-header-tile-nav-items li.nav-item.active {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mcb-content-item-container {
     position: relative;
     width: 100%;
     background: #FFF;
-    padding: 40px 20px 60px 20px;
+    padding: 20px 20px 60px 20px;
 }
 
 /*.mcb-content-item-container.top {
@@ -603,10 +672,10 @@ ul.mc-header-nav-items {
 }*/
 
 .mcb-content-item-container.expand-width {
-  -webkit-animation: widen-mcb-container .25s; /* Safari 4+ */
-  -moz-animation:    widen-mcb-container .25s; /* Fx 5+ */
-  -o-animation:      widen-mcb-container .25s; /* Opera 12+ */
-  animation:         widen-mcb-container .25s; /* IE 10+ */
+  -webkit-animation: widen-container .25s; /* Safari 4+ */
+  -moz-animation:    widen-container .25s; /* Fx 5+ */
+  -o-animation:      widen-container .25s; /* Opera 12+ */
+  animation:         widen-container .25s; /* IE 10+ */
 
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
@@ -615,10 +684,10 @@ ul.mc-header-nav-items {
 }
 
 .mcb-content-item-container.shrink-width {
-  -webkit-animation: shrink-mcb-container .25s; /* Safari 4+ */
-  -moz-animation:    shrink-mcb-container .25s; /* Fx 5+ */
-  -o-animation:      shrink-mcb-container .25s; /* Opera 12+ */
-  animation:         shrink-mcb-container .25s; /* IE 10+ */
+  -webkit-animation: shrink-container .25s; /* Safari 4+ */
+  -moz-animation:    shrink-container .25s; /* Fx 5+ */
+  -o-animation:      shrink-container .25s; /* Opera 12+ */
+  animation:         shrink-container .25s; /* IE 10+ */
 
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
@@ -682,9 +751,9 @@ ul.mc-header-nav-items {
 
 
 
-/* Dashboard *******************************************************************************/
-/* Dashboard *******************************************************************************/
-/* Dashboard *******************************************************************************/
+/* MARKET CHART *******************************************************************************/
+/* MARKET CHART *******************************************************************************/
+/* MARKET CHART *******************************************************************************/
 .dashboard-chart-container {
     position: relative;
     width: 100%;
@@ -755,15 +824,6 @@ ul.mc-header-nav-items {
 
 
 
-#sb-left-close {
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    /*background-color: #fff;*/
-    text-align: center;
-    padding-top: 6px;
-    color: #485357;
-}
 
 
 
@@ -771,7 +831,57 @@ ul.mc-header-nav-items {
 
 
 
-.logo {
+
+
+
+
+/* PORTFOLIO AREA *******************************************************************************/
+/* PORTFOLIO AREA *******************************************************************************/
+/* PORTFOLIO AREA *******************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Logo / Menu Nav Stuff *******************************************************************************/
+/* Logo / Menu Nav Stuff *******************************************************************************/
+/* Logo / Menu Nav Stuff *******************************************************************************/
+.app-menu-wrapper {
     height: 44px;
     width: 44px;
     line-height: 50px;
@@ -803,3 +913,45 @@ ul.mc-header-nav-items {
     left: 0px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* App Utilities *******************************************************************************/
+/* App Utilities *******************************************************************************/
+/* App Utilities *******************************************************************************/
+.no-select {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}

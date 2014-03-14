@@ -51,7 +51,7 @@ $(function() {
 
     var menuClosed = false;
 
-    $('#logo').click(function() {
+    $('#app-menu').click(function() {
         if (menuClosed) {
             $('.expand-width').addClass('shrink-width').removeClass('expand-width');
             $('.expand-width').addClass('shrink-width').removeClass('expand-width');
@@ -243,7 +243,8 @@ $(function() {
             "value": 0.47
         }],
         "valueAxes": [{
-            "axisAlpha": 1,
+            "axisAlpha": 0,
+            "axisColor": '#798286',
             "inside": true,
             "position": "left",
             "ignoreAxisWidth": true,

@@ -30,14 +30,14 @@
             <div class="app-main-content-container container">
                 <div class="app-main-content-inner no-side-padding">
 
-                    <span id="logo" class="logo"></span>
+
+                    <span id="app-menu" class="app-menu-wrapper no-select"></span>
 
                     <!-- LEFT COLUMN -->
                     <span class="sidebar-container sb-left">
 
                         <div class="sb-header-container">
                             <div class="sb-header">
-                                <!-- <span id="sb-left-close" class="iconic iconic-md" data-glyph="x"></span> -->
                                 <span class="sb-logo"></span>
                             </div>
                         </div>
@@ -48,13 +48,15 @@
                                 <span class="text"></span>
                             </li>
 
-                            <li class="nav-item">
-                                <span class="icon iconic iconic-md iconic-nav" data-glyph="graph"></span>
-                                <span class="text">Portfolio</span>
+                            <li class="nav-item active">
+                                <a href="portwallets.html">
+                                    <span class="icon iconic iconic-md iconic-nav" data-glyph="bitcoin"></span>
+                                    <span class="text">Portfolio</span>
+                                </a>
                             </li>
 
-                            <li class="nav-item active">
-                                <span class="icon iconic iconic-md iconic-nav" data-glyph="bitcoin"></span>
+                            <li class="nav-item">
+                                <span class="icon iconic iconic-md iconic-nav" data-glyph="graph"></span>
                                 <span class="text">Market</span>
                             </li>
 
@@ -78,15 +80,12 @@
                         <span class="main-content-header-container">
                             <div class="mc-header mch-slider">
 
+                                    <span class="title header dark">Wallets</span>
 
-                                    <span class="title header">Price History</span>
-
+                                    <!-- ACTION ICONS -->
                                     <ul class="mc-header-nav-items right">
-                                        <li class="nav-item active fast">
-                                            <span class="icon iconic iconic-md" data-glyph="graph"></span>
-                                        </li>
                                         <li class="nav-item fast">
-                                            <span class="icon iconic iconic-md" data-glyph="copywriting"></span>
+                                            <span class="icon iconic iconic-md" data-glyph="bitcoin-transaction"></span>
                                         </li>
                                     </ul>
 
@@ -95,41 +94,29 @@
 
                         <span class="main-content-body-container">
 
-                            <div class="mcb-content-item-container chart">
-                                <div class="mcb-content-item chart">
 
-                                    <div class="dashboard-chart-container">
-                                        <!-- Chart Headers -->
-                                        <div class="chart-data-header">
-                                            <span class="title title-2">BTC (USD)</span>
-                                            <span class="right">
-                                                <span class="caret icon-chart iconic iconic-md green" data-glyph="caret-top"></span>
-                                                <span class="title title-2">673.23</span>
-                                            </span>
-                                        </div>
-                                        <div class="clearfix"></div>
+                            <!-- HEADER TILE -->
+                            <div class="mcb-content-header-tile-container">
+                                <div class="mcb-content-header-tile">
 
-                                        <div class="chart-data-subheader">
-                                            <span class="title title-3">Updated Mar 14, 2014, 7:49 AM</span>
-                                            <span class="right">
-                                                <span class="title title-3">
-                                                    <span class="green">+</span> $27.32 (3.43%)
-                                                </span>
-                                            </span>
-                                        </div>
+                                    <span class="title title-2 dark">BitGo Secure Wallets</span>
 
-                                        <!-- Chart Element -->
-                                        <div id="dashboard-chart"></div>
-                                    </div>
+                                    <!-- SUB HEADER ACTION ICONS -->
+                                    <ul class="mcb-content-header-tile-nav-items right">
+                                        <li class="nav-item fast">
+                                            <span class="title title-2"></span>
+                                            <span class="icon iconic iconic-md" data-glyph="plus"></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- CONTENT AREA FOR HEADER TILE -->
+                            <div class="mcb-content-item-container">
+                                <div class="mcb-content-item">
 
                                 </div>
                             </div>
 
-                            <!-- <div class="mcb-content-item-container">
-                                <div class="mcb-content-item">
-                                    <span class="title">BitGo Wallets</span>
-                                </div>
-                            </div> -->
 
                         </span>
                     </span>
@@ -138,9 +125,6 @@
                     <span class="sidebar-container sb-right">
                         <div class="sb-header-container">
                             <div class="sb-header">
-                                <!-- <span class="sb-currency iconic" data-glyph="dollar"></span>
-                                <span class="sb-title sb-title-lg">673.23</span>
-                                <span class="sb-title sb-cap-title-sm">Current Price</span> -->
                                 <span class="sb-logo"></span>
                             </div>
                         </div>
