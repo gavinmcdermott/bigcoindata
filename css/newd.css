@@ -47,6 +47,9 @@ red   F96B5C
 
 
 
+.iconic.green {
+    color: #54BB87;
+}
 
 
 
@@ -55,6 +58,60 @@ red   F96B5C
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TEXT ITEMS TEXT STUFF ************************************************************/
+/* TEXT ITEMS TEXT STUFF ************************************************************/
+/* TEXT ITEMS TEXT STUFF ************************************************************/
+.title {
+    color: #2A3133;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    font-stretch: normal;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 1px;*/
+
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 50px;
+/*
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;*/
+    /*letter-spacing: .12px;*/
+
+    font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial", sans-serif;
+    font-weight:300;
+    letter-spacing: -1px;
+}
+
+.title.chart {
+    color: #798286;
+    text-transform: none;
+}
+
+.title.icon-chart.green {
+    vertical-align: baseline;
+}
+
+.title-currency {
+    color: #798286;
+    top: -22px;
+    position: relative;
+}
 
 
 .sb-title {
@@ -62,12 +119,6 @@ red   F96B5C
     font-weight: 300;
     font-stretch: normal;
     color: #798286;
-}
-
-.sb-currency {
-    color: #798286;
-    top: -13px;
-    position: relative;
 }
 
 .sb-title-lg {
@@ -170,7 +221,7 @@ red   F96B5C
 
 .sb-header {
     width: 100%;
-    height: 100%;
+    height: 90px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #283032;
@@ -179,7 +230,7 @@ red   F96B5C
 .sb-header .sb-stable-brand {
     position: relative;
     top: 80px;
-    left: 54px;
+    left: 5px;
     color: #798286;
 
     font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
@@ -193,7 +244,6 @@ red   F96B5C
     height: 110px;
     width: 100%;
     border-bottom: none;
-    /*background: red;*/
 }
 
 
@@ -209,7 +259,7 @@ red   F96B5C
 .sb-nav-items li {
     height: 80px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0px 20px;
     margin: 0;
     list-style: none;
     position: relative;
@@ -235,10 +285,10 @@ red   F96B5C
     color: #FFF;
 }
 
-/*.iconic[data-glyph].iconic-nav:before {
-    font-size: 18px;
-    line-height: 18px;
-}*/
+.iconic[data-glyph].iconic-nav:before {
+    font-size: 40px;
+    line-height: 40px;
+}
 
 .sb-nav-items .nav-item .text {
     font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
@@ -330,7 +380,6 @@ red   F96B5C
 .main-content-header-container {
     position: relative;
     display: inline-block;
-    float: left;
     background: #F6F6F6;
     min-width: 100%;
     height: 130px;
@@ -392,6 +441,41 @@ red   F96B5C
     font-size: 17px;
     letter-spacing: 2px;
     border-bottom: 1px solid #F6F8F8;
+}
+
+.mc-header.expand-width {
+  -webkit-animation: widen-mcb-container .25s; /* Safari 4+ */
+  -moz-animation:    widen-mcb-container .25s; /* Fx 5+ */
+  -o-animation:      widen-mcb-container .25s; /* Opera 12+ */
+  animation:         widen-mcb-container .25s; /* IE 10+ */
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.mc-header.shrink-width {
+  -webkit-animation: shrink-mcb-container .25s; /* Safari 4+ */
+  -moz-animation:    shrink-mcb-container .25s; /* Fx 5+ */
+  -o-animation:      shrink-mcb-container .25s; /* Opera 12+ */
+  animation:         shrink-mcb-container .25s; /* IE 10+ */
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.mc-header-chart {
+    background: #171D1F;
+    border-bottom: 1px solid transparent;
+    padding: 10px 40px 20px 84px;
+}
+
+.title-container {
+    height: 100%;
+    position: relative;
 }
 
 ul.mc-header-nav-items {
@@ -487,9 +571,9 @@ ul.mc-header-nav-items {
 
 .mcb-content-item-container.chart {
     background: #171D1F;
-    /*padding-top: 60px;*/
     padding-right: 0;
     padding-left: 0;
+    padding-top: 0;
 }
 
 .mcb-content-item {
@@ -501,26 +585,6 @@ ul.mc-header-nav-items {
 
 .mcb-content-item.chart {
     border-bottom: none;
-}
-
-.title {
-    color: #2A3133;
-    display: inline-block;
-    padding: 10px 0 20px 0;
-    font-stretch: normal;
-    /*text-transform: uppercase;*/
-    /*letter-spacing: 1px;*/
-
-
-    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 50px;
-
-    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
-    font-weight: 600;
-    font-stretch: normal;
-    /*letter-spacing: .12px;*/
 }
 
 
@@ -561,7 +625,7 @@ ul.mc-header-nav-items {
 .dashboard-chart-container {
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 400px;
     background: #171D1F;
     /*padding: 20px 0;*/
 }
@@ -601,7 +665,15 @@ ul.mc-header-nav-items {
 
 
 
-
+#sb-left-close {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    /*background-color: #fff;*/
+    text-align: center;
+    padding-top: 6px;
+    color: #485357;
+}
 
 
 
@@ -620,11 +692,12 @@ ul.mc-header-nav-items {
     position: absolute;
     cursor: pointer;
     z-index: 20;
+    opacity: .2;
 }
 
 .sb-logo {
     position: relative;
-    display: inline-block;
+    display: block;
     width: 52px;
     height: 52px;
     background: url('icons/bitgo-logo-56.svg') no-repeat center right;

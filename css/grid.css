@@ -14,14 +14,14 @@
     /*max-width: 700px;*/
   }
 }
-@media (min-width: 720px) {
+@media (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
   }
 }
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   .container {
-    width: 960px;
+    width: 1024px;
   }
 }
 @media (min-width: 1100px) {
