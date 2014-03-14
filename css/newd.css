@@ -51,6 +51,15 @@ red   F96B5C
     color: #54BB87;
 }
 
+.icon.close-placeholder {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #485357;
+    margin-right: 20px;
+    opacity: 0.3;
+}
+
 
 
 
@@ -227,7 +236,7 @@ red   F96B5C
     border-bottom: 1px solid #283032;
 }
 
-.sb-header .sb-stable-brand {
+./*sb-header .sb-stable-brand {
     position: relative;
     top: 80px;
     left: 5px;
@@ -238,7 +247,7 @@ red   F96B5C
     font-stretch: normal;
     letter-spacing: 1px;
     font-size: 24px;
-}
+}*/
 
 .sb-left .sb-header {
     height: 110px;
@@ -266,6 +275,12 @@ red   F96B5C
     cursor: pointer;
     color: #798286;
 }
+
+.sb-nav-items .nav-item.bottom {
+    position: relative;
+    bottom: 0px;
+}
+
 .sb-nav-items .nav-item:hover,
 .sb-nav-items .nav-item.active {
     color: #FFF;
@@ -278,7 +293,7 @@ red   F96B5C
     padding: 0px 20px 0 0;
     line-height: 80px;
     position: relative;
-    top: 8px;
+    top: 10px;
 }
 .sb-nav-items .nav-item:hover .icon,
 .sb-nav-items .nav-item.active .icon {
@@ -302,6 +317,17 @@ red   F96B5C
     font-stretch: normal;
     letter-spacing: 1px;
     font-size: 18px;
+
+
+    font-size: 13px;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    color: #798286;
+
+    font-size: 17px;
+    /*text-transform: uppercase;*/
+    letter-spacing: .12px;
 }
 
 /*.sb-header-container .text {
@@ -470,7 +496,7 @@ red   F96B5C
 .mc-header-chart {
     background: #171D1F;
     border-bottom: 1px solid transparent;
-    padding: 10px 40px 20px 84px;
+    padding: 10px 20px 20px 84px;
 }
 
 .title-container {
