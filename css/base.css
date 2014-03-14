@@ -1,0 +1,86 @@
+/* Fonts */
+@font-face {
+    font-family: 'garogierregular';
+    src: url('fonts/Garogier_unhinted-webfont.eot');
+    src: url('fonts/Garogier_unhinted-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Garogier_unhinted-webfont.woff') format('woff'),
+         url('fonts/Garogier_unhinted-webfont.ttf') format('truetype'),
+         url('fonts/Garogier_unhinted-webfont.svg#garogierregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* H Thin */
+/*font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Arial", sans-serif;*/
+
+/* H Medium */
+/*font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:500; font-stretch:normal;*/
+
+/* H Normal */
+/*font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:400; font-stretch:normal;*/
+
+
+
+/* Base */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'garogierregular', Georgia, Cambria, "Times New Roman", Times, serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: lighter;
+    color: #333332;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+
+
+
+/* Positioning Helpers */
+.left {
+    float: left !important;
+    display: inline-block;
+}
+
+.right {
+    float: right !important;
+    display: inline-block;
+}
+
+.no-side-padding {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.clearfix {
+    clear: both;
+}
+

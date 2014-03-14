@@ -1,0 +1,1167 @@
+.icon-small {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    background-color: red;
+    margin-right: 27px;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    /*height: 44px;*/
+    background-color: transparent;
+}
+
+.btn-menu {
+    color: #B3B3B1;
+    padding-top: 10px;
+}
+
+.btn-col-nav {
+    width: 60%;
+    height: 55px;
+    display: block;
+    float: left;
+    /*background: red;*/
+    /*text-align: left;*/
+    padding: 0;
+    margin: 0px auto 0px auto;
+    color: #B3B3B1;
+    /*border-bottom: 1px solid #B3B3B1;*/
+}
+
+.btn-col-nav.btn-col-right {
+    float: right;
+    border-right: none;
+    border-left: 2px solid #dedede;
+}
+
+.btn-col-nav.btn-col-right:hover {
+    color: #54BB87;
+    border-color: #54BB87;
+}
+
+.btn-col-nav.first {
+    margin-bottom: 33px;
+    border-bottom: none;
+}
+
+.btn-col-nav.active {
+    background: #dedede;
+    color: #333;
+}
+
+.nav-hero-btn-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-hero-nav-slider-container {
+    position: relative;
+    overflow: hidden;
+    height: 55px;
+    max-width: 170px;
+    margin: 0 auto;
+}
+
+.btn-nav-slider {
+    height: 55px;
+    width: 200%;
+    position: relative;
+}
+
+.btn-slider-full {
+    height: 55px;
+    position: absolute;
+    width: 50%;
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #B3B3B1;
+}
+.btn-slider-full.active,
+.btn-slider-full:hover {
+    color: white;
+    background-color: #54BB87;
+
+}
+
+.btn-toggle-container {
+    left: 50%;
+    width: 50%;
+    position: absolute;
+    height: 55px;
+}
+
+.btn-slider-half {
+    position: relative;
+    width: 50%;
+    height: 55px;
+    text-align: center;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #B3B3B1;
+    background-color: #e2e2e2;
+}
+.btn-slider-half.active,
+.btn-slider-half:hover {
+    color: white;
+    background-color: #54BB87;
+}
+
+
+.btn-hero-nav-container {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 20px 0 10px 0;
+    line-height: 55px;
+}
+
+
+.btn-hero-nav {
+    /*float: right;*/
+    /*margin-bottom: 20px;*/
+    /*min-width: 90px;*/
+    /*padding: 0 20px;*/
+
+    background: rgb(255, 255, 255);
+    /*border: 1px solid #dedede;*/
+    height: 75px;
+    width: 60%;
+
+    /*border-radius: 1000px;*/
+    /*border-radius: 3px;*/
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    /*line-height: 26px;*/
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #B3B3B1;
+    /*text-align: left;*/
+    /*padding-left: 20px;*/
+    /*margin-right: 20px;*/
+    line-height: 0px;
+    vertical-align: middle;
+
+    border-right: 2px solid #dedede;
+    /*color: #00AFDF;*/
+
+    /*margin-bottom: 5px;*/
+}
+
+.btn-hero-nav.green,
+.btn-hero-nav.active,
+.btn-hero-nav:hover {
+    /*color: #fff;*/
+    color: #333;
+    border-color: #00AFDF;
+    /*border-right: 2px solid #00AFDF;*/
+
+
+    /*color: #00AFDF;*/
+    /*background: #f3f3f3;*/
+
+    background: #fff;
+    /*background: #00AFDF;*/
+
+
+    /*border-color: #54BB87;*/
+    /*color: white;*/
+    /*font-weight: bold;*/
+    /*border: 1px solid #54BB87;*/
+
+    /*border-color: #00AFDF;*/
+}
+
+.btn-hero-nav.red:hover {
+    /*color: #E74C3C;*/
+    /*border-color: #E74C3C;*/
+}
+
+.btn-hero-nav.iconic.iconic-md:before {
+    font-size: 28px;
+    /*line-height: 40px;*/
+}
+
+.btn-hero-nav.middle {
+    /*border-right: 1px solid #ECECEC;*/
+    /*border-left: 1px solid #ECECEC;*/
+}
+
+
+
+
+
+
+
+
+
+.title-btn-container {
+    padding-top: 15px;
+    /*margin-top: 20px;*/
+    display: inline-block;
+    /*background: red;*/
+    position: relative;
+}
+
+.btn-round {
+    cursor: pointer;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    /* font-size: 14px; */
+    /* position: relative; */
+    border-radius: 3000px;
+    /* line-height: 55px; */
+    height: 55px;
+    /*width: 55px;*/
+    line-height: 55px;
+
+    padding: 0 20px;
+    color: #333335;
+    color: #777;
+    border: 1px solid #777;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.btn-round.active,
+.btn-round:hover {
+    color: #00AFDF;
+    border: 1px solid #00AFDF;
+}
+
+.btn-round .text {
+    padding-left: 6px;
+    /*display: inline-block;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-form {
+
+    /*width: 90px;*/
+
+    background: rgb(255, 255, 255);
+    /*border: 1px solid #dedede;*/
+    color: #dedede;
+    height: 44px;
+    width: 100px;
+    /*position: relative;*/
+
+    /*display: block;*/
+
+    border-radius: 1000px;
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    /*font-size: 12px;*/
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #ECECEC;
+    padding: 0 10px;
+    font-size: 12px;
+    /*line-height: 55px;*/
+
+    /*text-align: left;*/
+    /*padding-left: 20px;*/
+    border: 1px solid #ECECEC;
+/*    height: 55px;
+    line-height: 55px;
+    border-radius: 3px;
+    width: 170px;
+    border: 1px solid #54BB87;
+    text-align: center;
+    cursor: pointer;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: #666665;
+    color: white;
+    border-radius: 0;
+    margin-top: 30px;*/
+}
+
+.btn-form.green {
+    color: #54BB87;
+    border-color: #54BB87;
+}
+.btn-form.green:hover {
+    color: #16854D;
+    border-color: #16854D;
+}
+
+.btn-form.dark {
+    color: #b1b1b3;
+    border-color: #b1b1b3;
+}
+.btn-form.dark:hover {
+    color: #666;
+    border-color: #666;
+}
+
+.btn-form .text {
+    position: relative;
+    display: inline-block;
+    /*background: red;*/
+    line-height: 44px;
+    height: 44px;
+}
+
+.form-btn-container {
+    /*margin: 0 auto;*/
+    float: right;
+    /*background-color: red;*/
+    position: relative;
+    display: block;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wallet-section-actions {
+    /*background-color: red;*/
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.wallet-section-actions .title {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #B3B3B1;
+}
+
+.btn-wallet-section {
+    height: 44px;
+    max-width: 170px;
+    background-color: red;
+    margin: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-toggle-container {
+    box-sizing: border-box;
+    /*margin: 40px auto 0 auto;*/
+    max-width: 130px;
+    padding-top: 8px;
+    height: 60px;
+    /*background-color: red;*/
+    position: relative;
+}
+
+.hero-toggle {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #efefef;
+    line-height: 46px;
+    border-radius: 1000px;
+    text-align: center;
+    background-color: #fff;
+    color: #dedede;
+}
+
+.hero-toggle:last-child {
+    /*margin-right: 20px;*/
+}
+
+.hero-toggle.active,
+.hero-toggle:hover {
+    background: #54BB87;
+    border: 1px solid #54BB87;
+    /*background: #f4f4f4;*/
+    color: white;
+}
+
+.toggle-right {
+    /*border-left: none;*/
+    /*border-top-right-radius: 3px;*/
+    /*border-bottom-right-radius: 3px;*/
+    /*border-left: 1px solid #e3e3e3;*/
+}
+
+.toggle-left {
+    /*border-right: 0px solid transparent;*/
+    /*border-top-left-radius: 3px;*/
+    /*border-bottom-left-radius: 3px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.icon-btn-container {
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #CACACA;
+    /*text-align: center;*/
+}
+.icon-btn-container:hover,
+.icon-btn-container.active {
+    color: #54BB87;
+}
+
+.icon-btn-container .icon-btn-small.middle {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.icon-btn-container .icon-btn-small:before {
+    line-height: 55px;
+}
+
+.icon-btn-container.compressed {
+    height: 33px;
+    line-height: 33px;
+}
+.icon-btn-container.compressed .icon-btn-small:before {
+    line-height: 33px;
+}
+
+.icon-btn-small .text {
+    /*line-height: 55px;*/
+    vertical-align: top;
+    /* display: inline-block; */
+    padding-left: 6px;
+    font-size: 12px;
+    font-stretch: normal;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    /*padding: 0px 0 70px 0;*/
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.hero-left-container,
+.hero-right-container {
+    position: relative;
+}
+
+
+.hero .title,
+.hero .form-title {
+    display: inline-block;
+    font-size: 36px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    line-height: 55px;
+    /*padding-bottom: 10px;*/
+    /*border-bottom: 1px solid #ECECEC;*/
+}
+
+.hero .title.title-app,
+.hero .title.title-app a {
+    color: #B3B3B1;
+}
+
+.hero .title.title-page {
+    padding-top: 20px;
+}
+
+.hero .form-title {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    color: #B3B3B1;
+}
+
+.hero .title .lighter {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-stretch: normal;
+    /*letter-spacing: .12px;*/
+    color: #B3B3B1;
+    padding-left: 10px;
+    line-height: 55px;
+}
+
+.hero .title .thinner {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    font-stretch: normal;
+}
+
+.hero .title-smaller {
+    font-size: 32px;
+    line-height: 55px;
+}
+
+.hero .title .currency,
+.hero .sub-title .currency {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    /*color: #B3B3B1;*/
+}
+
+.hero .sub-title,
+.hero .post-title {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    color: #666;
+    color: #333;
+    line-height: 27px;
+}
+
+.hero .post-title {
+    padding-left: 10px;
+}
+
+.hero .info {
+    padding: 26px 0;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    color: #B3B3B1;
+    line-height: 27px;
+    display: inline-block;
+}
+
+.sub-title-container {
+    position: relative;
+    /*padding-top: 10px;*/
+}
+
+.sub-title-nav-item {
+    padding: 10px 0px;
+    display: inline-block;
+    float: left;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    color: #cacaca;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.sub-title-nav-item.active,
+.sub-title-nav-item:hover {
+    color: #54BB87;
+}
+
+.sub-title-nav-item .text {
+    display: inline-block;
+    padding: 0 20px;
+    border-right: 1px solid #ededed;
+}
+.sub-title-nav-item .text.first {
+    padding-left: 0;
+}
+.sub-title-nav-item .text.last {
+    border-right: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub-hero-nav {
+    position: relative;
+    /*padding: 10px 0;*/
+    /*background-color: red;*/
+    border-bottom: 1px solid #dedede;
+}
+
+.sub-hero-nav-button {
+    display: inline-block;
+    padding: 15px 20px;
+    /*width: 170px;*/
+    text-align: center;
+    color: #b3b3b1;
+    font-size: 16px;
+}
+
+.sub-hero-nav-button.active,
+.sub-hero-nav-button:hover {
+    color: #54BB87;
+    color: #00AFDF;
+    cursor: pointer;
+}
+
+.sub-hero-nav-button.right {
+    /*border-right: 1px solid #ededed;*/
+    border-left: 1px solid #ededed;
+}
+
+.sub-hero-nav-button.left {
+    border-left: 1px solid #ededed;
+}
+
+.sub-hero-nav .sub-hero-nav-button .text {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 16;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    line-height: 16px;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-side-nav {
+    height: 80px;
+    max-width: 100px;
+    /*float: right;*/
+    text-align: center;
+    border-bottom: 1px solid #dedede;
+
+
+
+    min-width: 170px;
+
+    background: rgb(255, 255, 255);
+    /*border: 1px solid #dedede;*/
+    color: #dedede;
+    height: 80px;
+    /*width: 55px;*/
+
+    /*border-radius: 1000px;*/
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    /*font-size: 12px;*/
+    line-height: 26px;
+    text-transform: uppercase;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #ECECEC;
+    /*text-align: left;*/
+    /*padding-left: 20px;*/
+    border-bottom: 1px solid #ECECEC;
+}
+
+.side-nav-container {
+
+}
+
+.btn-side-column.active,
+.btn-side-column:hover {
+
+}
+
+.btn-side-column .text {
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 auto;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    color: #cacaca;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*.btn-hero-nav.active,*/
+/*.btn-hero-nav:hover {*/
+    /*color: #fff;*/
+    /*color: #54BB87;*/
+    /*border-color: #54BB87;*/
+    /*color: white;*/
+    /*font-weight: bold;*/
+    /*border: 1px solid #54BB87;*/
+    /*background-color: #fff;*/
+/*}*/
+
+.btn-hero-nav.iconic.iconic-md:before {
+    font-size: 28px;
+    /*line-height: 40px;*/
+}
+
+.btn-hero-nav.middle {
+    /*border-right: 1px solid #ECECEC;*/
+    /*border-left: 1px solid #ECECEC;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.empty-section {
+    text-align: center;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    color: #B3B3B1;
+    line-height: 55px;
+}
+
+.empty-section .title {
+    font-size: 50px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    line-height: 55px;
+    color: #333335;
+}
+
+.empty-section .title.light {
+    color: #dedede;
+}
+
+
+.empty-section .info {
+    font-size: 20px;
+    /*width: 80%;*/
+    margin: 27px auto 0 auto;
+    line-height: 26px;
+}
+
+.empty-icon-lg {
+    color: #54BB87;
+    cursor: pointer;
+    display: block;
+    width: 300px;
+    height: 55px;
+    border-radius: 10000px;
+    line-height: 55px;
+    border: 1px solid #54BB87;
+    margin: 30px auto 0px auto;
+}
+
+.empty-icon-lg.light {
+    color: #dedede;
+    border: none;
+}
+
+.empty-icon-lg .text {
+    display: inline-block;
+    padding-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-row {
+    padding-bottom: 30px;
+}
+
+.input-row.last {
+    margin-top: 70px;
+}
+
+.input-row .link-form {
+    color: #CACACA;
+    cursor: pointer;
+    line-height: 55px;
+    display: inline-block;
+    margin: 0px 50px 0 0;
+    /*font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;*/
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-stretch: normal;
+    font-size: 12px;
+}
+.input-row .link.active,
+.input-row .link:hover {
+    color: #54BB87;
+}
+
+.input-row .link .text {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.input-row .title-horiz {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    /*color: #B3B3B1;*/
+    line-height: 55px;
+    height: 55px;
+    font-size: 32px;
+    color: rgba(76, 76, 78, 0.3);
+    /*background-color: red;*/
+    display: inline-block;
+}
+
+
+.input-container {
+    position: relative;
+}
+
+.input-container.large {
+    margin-top: 30px;
+}
+
+.input-container .field-title {
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #B3B3B1;
+    display: block;
+    /*padding-top: 15px;*/
+    /*border-top: 1px solid #dedede;*/
+}
+
+/*.input-container .sub-field {
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #B3B3B1;
+    line-height: 27px;
+}*/
+
+
+input {
+  color: rgb(46, 59, 78);
+    text-transform: none;
+    /*max-width: 500px;*/
+    border: 1px solid rgba(76, 76, 78, 0.0);
+    border: 0 solid rgba(0,0,0,0);
+    /*border-top: 0px dotted transparent;*/
+    /*border-right: 0px dotted transparent;*/
+    /*border-left: 0px dotted transparent;*/
+    /*border-bottom: 1px solid rgba(76, 76, 78, 0.3);*/
+    padding: 12px 10px 12px 0px;
+    /*background-color: rgb(241, 241, 241);*/
+    /*background-color: red;*/
+    /*text-align: center;*/
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    /*color: #B3B3B1;*/
+    /*line-height: 55px;*/
+    height: 55px;
+    width: 100%;
+
+    min-width: 100px;
+    font-size: 32px;
+
+/*    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.1);*/
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+
+    /*Custom apperance*/
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+
+            display: inline-block;
+
+  border-radius: 2px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+::-webkit-input-placeholder {
+    color: rgba(76, 76, 78, 0.3);
+}
+
+:-moz-placeholder {
+    color: rgba(76, 76, 78, 0.3);
+}
+
+::-moz-placeholder {
+    color: rgba(76, 76, 78, 0.3);
+}
+
+.large input {
+    display: inline-block;
+    font-size: 40px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    line-height: 55px;
+    color: #333;
+    padding-left: 0;
+}
+
+input.subtitle {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    color: #666665;
+    line-height: 55px;
+    border-bottom: 1px solid #dedede;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.graph {
+    width: 100%;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 30px;
+}
+
+.metrics {
+
+}
+
+.metric {
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    letter-spacing: .12px;
+    line-height: 55px;
+    font-size: 32px;
+    /*font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    font-stretch: normal;
+    letter-spacing: .12px;*/
+    color: #333335;
+    line-height: 55px;
+    text-align: center;
+}
+
+.metric .main {
+
+}
+
+.metric .sub {
+
+}
+
+
+.metric.metric-sm {
+
+}
+
+.metric.metric-md {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    /*position: relative;*/
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    margin-top: 5px;
+    background: url('icons/bitgo-logo-56.svg') no-repeat center center;
+    background-size: 44px 44px;
+    margin-right: 10px;
+}

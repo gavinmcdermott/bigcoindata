@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BitGo</title>
+        <link rel="stylesheet" href="../css/icons/iconic-glyphs.css">
+        <link rel="stylesheet" href="../css/reset-3.0.0.css">
+        <link rel="stylesheet" href="../css/base.css">
+        <link rel="stylesheet" href="../css/grid.css">
+        <link rel="stylesheet" href="../css/app-container.css">
+        <link rel="stylesheet" href="../css/animations.css">
+        <link rel="stylesheet" href="../css/newd.css">
+    </head>
+    <body ng-app="demo" ng-controller="DemoCtrl">
+
+       <div id="window-container" class="window-container">
+
+            <nav class="app-main-menu-container reveal">
+                <a href="wallets.html">
+                    <div class="header">
+                        <span class="title">BitGo</span>
+                        <button class="logo left no-side-padding btn" data-effect="" data-glyph=""></button>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+
+
+                <a href="wallets.html">
+                    <div class="tile fast">
+                        <span class="icon iconic" data-glyph="graph"></span>Portfolio
+                    </div>
+                </a>
+                <a href="notifications.html">
+                    <div class="tile fast">
+                        <span class="icon iconic" data-glyph="envelope-closed"></span>Notifications
+                    </div>
+                </a>
+                <a href="news.html">
+                    <div class="tile fast">
+                        <span class="icon iconic" data-glyph="bitcoin"></span>News
+                    </div>
+                </a>
+                <a href="settings.html">
+                    <div class="tile fast">
+                        <span class="icon iconic" data-glyph="cog"></span>Settings
+                    </div>
+                </a>
+            </nav>
+
+
+
+            <div class="app-main-content-container">
+
+               <!--  <div class="app-main-content-header">
+                    <div class="header-inner container">
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <button class="logo left no-side-padding btn" data-effect="" data-glyph=""></button>
+                            <button class="btn-menu no-side-padding btn iconic iconic-md" data-effect="reveal" data-glyph="menu"></button>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+
+                        </div>
+                        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                            <button class="logo right no-side-padding btn" data-effect="" data-glyph=""></button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="app-main-content-body container no-side-padding">
+
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                        <button class="btn-menu fast btn-col-nav first btn iconic iconic-md" data-effect="reveal" data-glyph="menu"></button>
+                        <!-- <a href="walletoverview.html">
+                            <button class="active fast no-side-padding btn-col-nav btn btn-hero-nav iconic iconic-md" data-glyph="graph"></button>
+                        </a>
+                        <a href="wallettransaction.html">
+                            <button class="no-side-padding fast btn btn-hero-nav btn-col-nav iconic iconic-md" data-glyph="bitcoin-transaction"></button>
+                        </a>
+                        <a href="walletsecurity.html">
+                            <button class="no-side-padding fast btn btn-hero-nav btn-col-nav iconic iconic-md" data-glyph="lock-locked"></button>
+                        </a> -->
+                    </div>
+
+                    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+
+                        <div class="hero title-group no-side-padding ">
+                            <span class="title title-app col-xs-12 col-sm-12 col-md-12 col-lg-12 no-side-padding">
+                                Portfolio
+                                <!-- <span class="lighter">| Sator Square Main</span> -->
+                                <!-- <span class="right"><span class="currency"> BTC Current Price: 234,234.23 USD</span></span> -->
+                                <div class="clearfix"></div>
+                            </span>
+                            <div class="clearfix"></div>
+
+                            <span class="title title-page col-xs-12 col-sm-12 col-md-12 col-lg-12 no-side-padding">
+                                Market Value
+                                <!-- <span class="lighter">| Sator Square Main</span> -->
+                                <span class="right">3,174.28 <span class="currency">USD</span></span>
+                                <div class="clearfix"></div>
+                            </span>
+                            <div class="clearfix"></div>
+                            <div class="sub-title-container">
+                                <span class="sub-title right">4.9071 <span class="currency">BTC</span></span>
+                                <!-- <span class="sub-title">Wallet List</span>
+                                <div class="btn-hero-nav-container">
+                                    <a href="performance.html"><button class="no-side-padding btn btn-hero-nav iconic iconic-md" data-glyph="graph"></button></a>
+                                    <a href="wallets.html"><button class="no-side-padding btn btn-hero-nav active bottom iconic iconic-md" data-glyph="menu"></button>
+                                    <div class="clearfix"></div></a>
+                                </div> -->
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+
+                        <!-- <div class="sub-hero-nav col-xs-12 col-sm-12 col-md-12 col-lg-12 no-side-padding">
+                            <span class="sub-hero-nav-button active col-xs-6 col-sm-6 col-md-6 col-lg-6 iconic" data-glyph="lock-locked">
+                                <span class="title">BitGo Secure Wallets</span>
+                            </span>
+                            <span class="sub-hero-nav-button left col-xs-6 col-sm-6 col-md-6 col-lg-6 iconic" data-glyph="">
+                                <span class="title">Outside Wallets</span>
+                            </span>
+                        </div> -->
+
+                        <div class="main col-xs-12 col-sm-12 col-md-12 col-lg-12 no-side-padding">
+
+<!--                             <div class="tile-grouping">
+
+                                <div class="group-item metric-group first">
+
+                                    <a href="wallet.html">
+
+                                        <span class="title fast">Current Price</span>
+                                        <span class="title fast right">636.36 <span class="currency">USD</span></span>
+                                        <div class="clearfix"></div>
+
+
+                                        <div class="sub-title-container">
+                                            <span class="sub-title fast">24-Hour Range <span class="currency"></span></span>
+                                            <span class="sub-title fast right">618.02 - 648.14 <span class="currency">USD</span></span>
+                                        </div>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+ -->
+
+
+                            <!-- <div class="tile-grouping">
+                                <div class="title-divider first">
+                                    <span class="title">Current Market Snapshot</span>
+                                    <a href="add1.html"><span class="btn right divider-btn">
+                                        <span class="text fast">Read the Latest Headlines</span>
+                                        <span class="icon iconic" data-glyph="bitcoin"></span>
+                                    </span></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+
+
+                                <div class="group-item first">
+                                    <span class="title fast">Current BTC Price</span>
+                                    <span class="title fast right">672.74 <span class="currency">USD</span></span>
+                                    <div class="clearfix"></div>
+                                    <div class="sub-title-container">
+                                        <span class="sub-title fast">Daily Gain / Loss</span>
+                                        <span class="sub-title fast right">(+ 3.27%) 23.38 <span class="currency">USD</span></span>
+                                        <div class="clearfix"></div>
+                                        <span class="sub-title fast right">618.38 - 693.24 <span class="currency">BTC</span></span>
+                                        <span class="sub-title fast">24-Hour Range</span>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div> -->
+
+
+                            <div class="tile-grouping">
+                                <div class="title-divider">
+                                    <span class="title">BitGo Secure Wallets</span>
+                                    <a href="add1.html"><span class="btn right divider-btn">
+                                        <span class="text fast">Add a Secure Wallet</span>
+                                        <span class="icon iconic" data-glyph="plus"></span>
+                                    </span></a>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+
+
+                                <div class="group-item first">
+                                    <a href="wallet.html">
+                                        <span class="title fast">Sator Square Main</span>
+                                        <span class="title fast right">23,186.64 <span class="currency">USD</span></span>
+                                        <div class="clearfix"></div>
+                                        <div class="sub-title-container">
+                                            <span class="sub-title fast right">35.2907 <span class="currency">BTC</span></span>
+                                        </div>
+                                    </a>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="tile-grouping">
+                                <div class="title-divider">
+                                    <span class="title">Outside Wallets</span>
+                                    <span class="btn right divider-btn">
+                                        <span class="text fast">Link an Outside Wallet</span>
+                                        <span class="icon iconic" data-glyph="link-intact"></span>
+                                    </span>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="clearfix"></div>
+                            </div>
+
+
+                        </div>
+
+                       <!--  <div class="main col-xs-4 col-sm-4 col-md-4 col-lg-4 no-side-padding">
+
+                                <button class="btn btn-side-nav top iconic iconic-md active" data-glyph="">
+                                    <span class="text">Confirmed</span>
+                                </button>
+
+                                <button class="btn btn-side-nav top iconic iconic-md active" data-glyph="">
+                                    <span class="text">Pending</span>
+                                </button>
+                        </div> -->
+
+                        <div class="clearfix"></div>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </div><!-- /window-container -->
+
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular-route.js"></script>
+        <!-- // <script src="../js/iconic.min.js"></script> -->
+        <script src="../js/main.js"></script>
+    </body>
+</html>

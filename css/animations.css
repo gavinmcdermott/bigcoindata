@@ -1,0 +1,92 @@
+/***************************************************************/
+/* ANIMATIONS */
+/***************************************************************/
+.slow {
+  -webkit-transition: all .45s ease-out;
+     -moz-transition: all .45s ease-out;
+      -ms-transition: all .45s ease-out;
+       -o-transition: all .45s ease-out;
+          transition: all .45s ease-out;
+}
+
+.med {
+  -webkit-transition: all .25s ease-out;
+     -moz-transition: all .25s ease-out;
+      -ms-transition: all .25s ease-out;
+       -o-transition: all .25s ease-out;
+          transition: all .25s ease-out;
+}
+
+.fast {
+  -webkit-transition: all .19s ease-out;
+     -moz-transition: all .19s ease-out;
+      -ms-transition: all .19s ease-out;
+       -o-transition: all .19s ease-out;
+          transition: all .19s ease-out;
+}
+
+
+/* Reveal the Main App Menu */
+.reveal.app-main-menu-container-open .app-main-content-container {
+    -webkit-transform: translate3d(250px, 0, 0);
+    transform: translate3d(250px, 0, 0);
+}
+
+.reveal.app-main-menu-container {
+    z-index: 1;
+}
+
+.reveal.app-main-menu-container-open .reveal.app-main-menu-container {
+    visibility: visible;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.reveal.app-main-menu-container::after {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes widen-mcb-container {
+  0%   { padding-left: 84px; }
+  100% { padding-left: 20px; }
+}
+@-moz-keyframes widen-mcb-container {
+  0%   { padding-left: 84px; }
+  100% { padding-left: 20px; }
+}
+@-o-keyframes widen-mcb-container {
+  0%   { padding-left: 84px; }
+  100% { padding-left: 20px; }
+}
+@keyframes widen-mcb-container {
+  0%   { padding-left: 84px; }
+  100% { padding-left: 20px; }
+}
+
+
+
+@-webkit-keyframes shrink-mcb-container {
+  0%   { padding-left: 20px; }
+  100% { padding-left: 84px; }
+}
+@-moz-keyframes shrink-mcb-container {
+  0%   { padding-left: 20px; }
+  100% { padding-left: 84px; }
+}
+@-o-keyframes shrink-mcb-container {
+  0%   { padding-left: 20px; }
+  100% { padding-left: 84px; }
+}
+@keyframes shrink-mcb-container {
+  0%   { padding-left: 20px; }
+  100% { padding-left: 84px; }
+}

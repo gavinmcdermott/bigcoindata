@@ -1,0 +1,107 @@
+/* Global */
+.window-container {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background: #171D1F;
+    /*background: #54636A;*/
+    /*background: #FFF;*/
+}
+
+
+
+/* Site - Main Page Content */
+.app-main-content-container {
+    height: 100%;
+    -ms-overflow-y: scroll;
+    overflow-y: scroll;
+    background: white;
+    position: relative;
+    left: 0;
+    z-index: 100;
+    height: 100%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    background: #272A33;
+}
+
+.app-main-content-container::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: rgba(0,0,0,0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+    transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+.app-main-menu-container-open .app-main-content-container::after {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+
+
+/* App - Main Side Menu */
+.app-main-menu-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    visibility: hidden;
+    /*width: 300px;*/
+    width: 100%;
+    height: 100%;
+    background: #272A33;
+    /*background: red;*/
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.app-main-menu-container::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+    content: '';
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.app-main-menu-container-open .app-main-menu-container::after {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+    transition: opacity 0.5s, width 0.1s 0.5s, height 0.1s 0.5s;
+}
+
+.app-main-menu-container .app-main-menu-inner {
+    position: relative;
+    left: 0;
+    /*width: 200px;*/
+    height: 100%;
+}
+
+
+
+/* App - Inner - Body */
+.app-main-content-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -ms-overflow-y: hidden;
+    overflow-y: hidden;
+    -ms-overflow-x: hidden;
+    overflow-x: hidden;
+}

@@ -1,0 +1,642 @@
+/*
+
+header blue  45C8DC
+dark menu  272A33
+
+darker bg  F0F0F0
+lighter bg F6F6F6
+
+sidebar icons  393D48
+sidebar text  555964
+sb darker  1D2027
+
+
+content area headers  838793
+
+
+===================================
+"consumery" above
+===================================
+
+
+
+
+
+side dark   171D1F
+side icon   485357
+side text reg darker  485256
+side dividers   283032
+
+
+right side text reg lighter   798286
+
+header font   2A3133
+sub font / icons  6F7578   61686B
+by lines   A5AFB2
+
+main dividers   F6F8F8
+font   7A8083
+
+dark gray bubble  383D3F
+
+green   54BB87
+red   F96B5C
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sb-title {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    color: #798286;
+}
+
+.sb-currency {
+    color: #798286;
+    top: -13px;
+    position: relative;
+}
+
+.sb-title-lg {
+    line-height: 40px;
+    font-size: 40px;
+    /*display: block;*/
+    /*letter-spacing: 2px;*/
+}
+
+.sb-cap-title-sm {
+    line-height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.sb-cap-title-med {
+    line-height: 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: .12px;
+    display: block;
+    /*color: #485256;*/
+}
+
+.sb-title-sm {
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    display: block;
+    color: #485256;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR ************************************************************/
+/* SIDEBAR ************************************************************/
+/* SIDEBAR ************************************************************/
+
+.sidebar-container {
+    height: 100%;
+    background-color: #171D1F;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+}
+
+.sidebar-container.sb-left {
+    height: 100%;
+    display: inline-block;
+    width: 270px;
+    padding: 0;
+    float: left;
+}
+
+.sidebar-container.sb-right {
+    width: 270px;
+    height: 100%;
+    display: inline-block;
+    padding: 0px 0px;
+    float: right;
+}
+
+.sb-header-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    /*height: 130px;*/
+    float: left;
+    padding: 40px 20px 0 20px;
+}
+
+.sb-header {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #283032;
+}
+
+.sb-header .sb-stable-brand {
+    position: relative;
+    top: 80px;
+    left: 54px;
+    color: #798286;
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+.sb-left .sb-header {
+    height: 110px;
+    width: 100%;
+    border-bottom: none;
+    /*background: red;*/
+}
+
+
+.sidebar-container ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px 0px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.sb-nav-items li {
+    height: 80px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    color: #798286;
+}
+.sb-nav-items .nav-item:hover,
+.sb-nav-items .nav-item.active {
+    color: #FFF;
+    /*background: black;*/
+}
+
+.sb-nav-items .nav-item .icon {
+    color: #485357;
+    display: inline-block;
+    padding: 0px 20px 0 0;
+    line-height: 80px;
+    position: relative;
+    top: 8px;
+}
+.sb-nav-items .nav-item:hover .icon,
+.sb-nav-items .nav-item.active .icon {
+    color: #FFF;
+}
+
+/*.iconic[data-glyph].iconic-nav:before {
+    font-size: 18px;
+    line-height: 18px;
+}*/
+
+.sb-nav-items .nav-item .text {
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
+    line-height: 80px;
+    display: inline-block;
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+/*.sb-header-container .text {
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}*/
+
+
+
+
+.sb-content-items-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px 0 20px;
+}
+
+.sb-content-item-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sb-content-item-header {
+    width: 80%;
+    border-bottom: 1px solid #283032;
+}
+
+.sb-content-item {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content Container ************************************************************/
+/* Main Content Container ************************************************************/
+/* Main Content Container ************************************************************/
+
+.main-content-container {
+    position: absolute;
+    width: calc(100% - 270px);
+    height: 100%;
+    display: inline-block;
+    /*float: left;*/
+    z-index: 10;
+    left: 0px;
+
+/* Uncomment for whole scrolling main */
+    -ms-overflow-y: scroll;
+    overflow-y: scroll;
+/*
+   -ms-overflow-y: hidden;
+    overflow-y: hidden;*/
+}
+
+.main-content-header-container {
+    position: relative;
+    display: inline-block;
+    float: left;
+    background: #F6F6F6;
+    min-width: 100%;
+    height: 130px;
+}
+
+.main-content-body-container {
+    float: left;
+    min-height: calc(100% - 0px);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: #FFF;
+    -ms-overflow: hidden;
+    overflow: hidden;
+
+/* Comment out for scrolling body */
+    /*height: calc(100% - 130px);
+    -ms-overflow-y: scroll;
+    overflow-y: scroll;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content Header ************************************************************/
+/* Main Content Header ************************************************************/
+/* Main Content Header ************************************************************/
+.mc-header {
+    height: 100%;
+    line-height: 130px;
+    color: #FFF;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #F6F8F8;
+}
+
+ul.mc-header-nav-items {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+}
+
+.mc-header-nav-items li.nav-item {
+    color: #228D9F;
+    height: 100%;
+    width: 120px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.mc-header-nav-items li.nav-item:hover,
+.mc-header-nav-items li.nav-item.active {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main content Area ************************************************************/
+/* Main content Area ************************************************************/
+/* Main content Area ************************************************************/
+.mcb-content-item-container {
+    position: relative;
+    width: 100%;
+    background: #FFF;
+    padding: 40px 20px 60px 84px;
+}
+
+/*.mcb-content-item-container.top {
+    padding-top: 40px;
+}*/
+
+.mcb-content-item-container.expand-width {
+  -webkit-animation: widen-mcb-container .25s; /* Safari 4+ */
+  -moz-animation:    widen-mcb-container .25s; /* Fx 5+ */
+  -o-animation:      widen-mcb-container .25s; /* Opera 12+ */
+  animation:         widen-mcb-container .25s; /* IE 10+ */
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.mcb-content-item-container.shrink-width {
+  -webkit-animation: shrink-mcb-container .25s; /* Safari 4+ */
+  -moz-animation:    shrink-mcb-container .25s; /* Fx 5+ */
+  -o-animation:      shrink-mcb-container .25s; /* Opera 12+ */
+  animation:         shrink-mcb-container .25s; /* IE 10+ */
+
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.mcb-content-item-container.chart {
+    background: #171D1F;
+    /*padding-top: 60px;*/
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.mcb-content-item {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid #F6F8F8;
+}
+
+.mcb-content-item.chart {
+    border-bottom: none;
+}
+
+.title {
+    color: #2A3133;
+    display: inline-block;
+    padding: 10px 0 20px 0;
+    font-stretch: normal;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 1px;*/
+
+
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 50px;
+
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: normal;
+    /*letter-spacing: .12px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dashboard *******************************************************************************/
+/* Dashboard *******************************************************************************/
+/* Dashboard *******************************************************************************/
+.dashboard-chart-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: #171D1F;
+    /*padding: 20px 0;*/
+}
+
+#dashboard-chart {
+    width: 100%;
+    height: 100%;
+}
+
+.sliding-title {
+    position: absolute;
+    color: #798286;
+    left: 80px;
+    z-index: 1;
+    line-height: 50px;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo {
+    height: 44px;
+    width: 44px;
+    line-height: 50px;
+    background: #798286;
+    display: inline-block;
+    top: 40px;
+    left: 20px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.sb-logo {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background: url('icons/bitgo-logo-56.svg') no-repeat center right;
+    background-size: 52px 54px;
+    cursor: pointer;
+    line-height: 50px;
+    margin: 0px auto 0px auto;
+}
+
+.sb-logo.sb-logo-bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+}
+
