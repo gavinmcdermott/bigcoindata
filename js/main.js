@@ -64,7 +64,7 @@ $(function() {
             $('.mch-slider').removeClass('shrink-width').addClass('expand-width');
 
             $('.sliding-title').css('left', '20px');
-            $('.main-content-container').css('left', '270px');
+            $('.main-content-container').css('left', '230px');
             menuClosed = true;
         }
 

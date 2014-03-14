@@ -52,8 +52,8 @@ red   F96B5C
 }
 
 .icon.close-placeholder {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: inline-block;
     background-color: #485357;
     margin-right: 20px;
@@ -94,8 +94,8 @@ red   F96B5C
 
     font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
 /*
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
@@ -190,7 +190,6 @@ red   F96B5C
 
 
 
-
 /* SIDEBAR ************************************************************/
 /* SIDEBAR ************************************************************/
 /* SIDEBAR ************************************************************/
@@ -206,13 +205,14 @@ red   F96B5C
 .sidebar-container.sb-left {
     height: 100%;
     display: inline-block;
-    width: 270px;
+    width: 230px;
     padding: 0;
     float: left;
+    background: #1A2224;
 }
 
 .sidebar-container.sb-right {
-    width: 270px;
+    width: 230px;
     height: 100%;
     display: inline-block;
     padding: 0px 0px;
@@ -266,7 +266,7 @@ red   F96B5C
 }
 
 .sb-nav-items li {
-    height: 80px;
+    height: 70px;
     width: 100%;
     padding: 0px 20px;
     margin: 0;
@@ -293,16 +293,20 @@ red   F96B5C
     padding: 0px 20px 0 0;
     line-height: 80px;
     position: relative;
-    top: 10px;
+    top: 7px;
 }
 .sb-nav-items .nav-item:hover .icon,
 .sb-nav-items .nav-item.active .icon {
     color: #FFF;
 }
+.sb-nav-items .nav-item:hover .text,
+.sb-nav-items .nav-item.active .text {
+    color: #FFF;
+}
 
 .iconic[data-glyph].iconic-nav:before {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 30px;
 }
 
 .sb-nav-items .nav-item .text {
@@ -356,7 +360,7 @@ red   F96B5C
 }
 
 .sb-content-item-header {
-    width: 80%;
+    width: 100%;
     border-bottom: 1px solid #283032;
 }
 
@@ -388,7 +392,7 @@ red   F96B5C
 
 .main-content-container {
     position: absolute;
-    width: calc(100% - 270px);
+    width: calc(100% - 230px);
     height: 100%;
     display: inline-block;
     /*float: left;*/
