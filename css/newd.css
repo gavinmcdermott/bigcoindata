@@ -47,6 +47,39 @@ green   54BB87
 red   F96B5C
 
 
+
+
+
+===================================
+some elements of "too techy" above
+===================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+background   D7DBDE
+light divider header   A6ABAE
+
+
+dark font main title    61666A
+light font sub titles    94999C
+lighter text    929A9C
+
+
+icon dark    949C9F
+darker icon header    7A7F83
+
+
 */
 
 
@@ -103,7 +136,7 @@ red   F96B5C
 /* TEXT ITEMS TEXT STUFF ************************************************************/
 /* TEXT ITEMS TEXT STUFF ************************************************************/
 .title {
-    color: #2A3133;
+    color: #61666A;
     display: inline-block;
     /*padding: 20px 0 20px 0;*/
     font-stretch: normal;
@@ -113,8 +146,8 @@ red   F96B5C
 
     font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 300;
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+    line-height: 40px;
 /*
     font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosBold', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
     font-weight: 600;
@@ -128,15 +161,15 @@ red   F96B5C
 }
 
 .title-2 {
-    color: #798286;
-    font-size: 36px;
+    color: #94999C;
+    font-size: 28px;
     line-height: 40px;
     vertical-align: middle;
     display: inline-block;
 }
 
 .title-3 {
-    color: #798286;
+    color: #94999C;
     font-size: 16px;
     line-height: 20px;
     vertical-align: middle;
@@ -144,9 +177,12 @@ red   F96B5C
     letter-spacing: 0px;
 }
 
-.title.header {color: #798286;
+.title.header {
+    color: #61666A;
     text-transform: none;
     vertical-align: middle;
+    /*letter-spacing: 1.5px;
+    font-size: 22px;*/
 }
 
 .title-currency {
@@ -454,11 +490,12 @@ red   F96B5C
     /* black header */
     /*background: #1A2224;*/
 
-    /*background: #FFF;*/
+    background: #D7DBDE;
 
     min-width: 100%;
     height: 130px;
     border-bottom: 1px solid #373F41;
+    border-bottom: 1px solid #A6ABAE;
 }
 
 .main-content-body-container {
@@ -467,7 +504,7 @@ red   F96B5C
     display: inline-block;
     position: relative;
     width: 100%;
-    background-color: #FFF;
+    background-color: #D7DBDE;
     -ms-overflow: hidden;
     overflow: hidden;
 
@@ -544,16 +581,18 @@ red   F96B5C
 ul.mc-header-nav-items {
     list-style: none;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px 0 0;
     line-height: 150px;
     height: 130px;
     position: relative;
-    border-left: 1px solid #373F41;
+    /*border-left: 1px solid #373F41;*/
+    border-right: 1px solid #A6ABAE;
     /*background: red;*/
 }
 
 .mc-header-nav-items .nav-item {
     color: #485357;
+    color: #949C9F;
     height: 100%;
     width: 120px;
     margin: 0;
@@ -569,6 +608,18 @@ ul.mc-header-nav-items {
     color: white;
 }
 
+.iconic-header {
+    display: inline-block;
+}
+
+.iconic[data-glyph].iconic-header:before {
+    line-height: 40px;
+    font-size: 30px;
+    height: 40px;
+    /*padding: 5px;*/
+    width: 40px;
+    /*background: #C8CBCE;*/
+}
 
 
 
@@ -610,7 +661,7 @@ ul.mc-header-nav-items {
     width: 100%;
     height: 100px;
     position: relative;
-    border-bottom: 1px solid #dedede;
+    /*border-bottom: 1px solid #A6ABAE;*/
 }
 
 .mcb-content-header-tile {
@@ -628,11 +679,12 @@ ul.mcb-content-header-tile-nav-items {
     line-height: 120px;
     height: 100px;
     position: relative;
-    border-left: 1px solid #373F41;
+    border-left: 1px solid #A6ABAE;
 }
 
 .mcb-content-header-tile-nav-items .nav-item {
     color: #485357;
+    color: #949C9F;
     height: 100%;
     width: 120px;
     margin: 0;
@@ -663,7 +715,7 @@ ul.mcb-content-header-tile-nav-items {
 .mcb-content-item-container {
     position: relative;
     width: 100%;
-    background: #FFF;
+    /*background: #FFF;*/
     padding: 20px 20px 60px 20px;
 }
 
@@ -710,7 +762,7 @@ ul.mcb-content-header-tile-nav-items {
     /*height: 100%;*/
     /*height: 715px;*/
     width: 100%;
-    border-bottom: 1px solid #F6F8F8;
+    border-bottom: 1px solid #A6ABAE;
 }
 
 .mcb-content-item.chart {
@@ -882,8 +934,8 @@ ul.mcb-content-header-tile-nav-items {
 /* Logo / Menu Nav Stuff *******************************************************************************/
 /* Logo / Menu Nav Stuff *******************************************************************************/
 .app-menu-wrapper {
-    height: 44px;
-    width: 44px;
+    height: 40px;
+    width: 40px;
     line-height: 50px;
     background: #798286;
     display: inline-block;
@@ -892,7 +944,7 @@ ul.mcb-content-header-tile-nav-items {
     position: absolute;
     cursor: pointer;
     z-index: 20;
-    opacity: .2;
+    /*opacity: .2;*/
 }
 
 .sb-logo {
